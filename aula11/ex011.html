@@ -23,7 +23,7 @@
         function calcular() {
             var txtpais = window.document.getElementById('ipais')
             var respais = window.document.getElementById('respais')
-            var pais = String(ipais.value)
+            var pais = String(txtpais.value)
             respais.innerHTML = `<p>O seu pais de residência é ${pais}.</p>`
             if (pais == 'Portugal') {
                 respais.innerHTML += `<p>Você é português</p>`
